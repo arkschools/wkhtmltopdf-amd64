@@ -1,0 +1,22 @@
+{
+    "name": "arkschools/wkhtmltopdf-amd64",
+    "description": "Simple shell utility to convert html to pdf using the webkit rendering engine, and qt.",
+    "homepage": "https://code.google.com/p/wkhtmltopdf/",
+    "version": "0.11.0-RC1",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "google/wkhtmltopdf-amd64",
+                "version": "0.11.0-RC1",
+                "dist": {
+                    "url": "http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2",
+                    "type": "tar"
+                }
+            }
+        }
+    ],
+    "require": {
+        "google/wkhtmltopdf-amd64": "0.11.0-RC1"
+    }
+}
